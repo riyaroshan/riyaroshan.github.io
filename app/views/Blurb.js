@@ -23,7 +23,7 @@ const Blurb = props => (
 
           <div className="col-md-4" style={{ padding: '1em' }}>
             <header>
-              {!props.hideTitle && <h2>Hi there.  I&apos;m  Kevin Mao.</h2> }
+              {!props.hideTitle && <h2>Hi there.  I&apos;m  Riya Roshan.</h2> }
               <p><a href="mailto:imkevinmao@gmail.com">imkevinmao@gmail.com</a></p>
 
             </header>

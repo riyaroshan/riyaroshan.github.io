@@ -1,8 +1,7 @@
-import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
-import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
-import faLinkedinIn from '@fortawesome/fontawesome-free-brands/faLinkedinIn';
-import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
-import faFilePdf from '@fortawesome/fontawesome-free-regular/faFilePdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFilePdf } from '@fortawesome/free-regular-svg-icons';
 
 
 const data = [

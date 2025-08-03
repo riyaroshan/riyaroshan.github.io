@@ -7,26 +7,26 @@ const randomString = (length) => {
 const pages = [
   {
     route: '/',
-    title: 'Kevin Mao',
+    title: 'Riya Roshan',
     heading: 'ABOUT THIS SITE',
   },
   {
     route: '/home',
-    title: 'Kevin Mao',
+    title: 'Riya Roshan',
     heading: 'HOME',
   },
   {
     route: '/resume',
-    title: 'Resume | Kevin Mao'
-  }
+    title: 'Resume | Riya Roshan'
+  },
   {
     route: '/projects',
-    title: 'Projects | Kevin Mao',
+    title: 'Projects | Riya Roshan',
     heading: 'PROJECTS',
   },
   {
     route: '/photography',
-    title: 'Photography | Kevin Mao',
+    title: 'Photography | Riya Roshan',
     heading: 'PHOTOGRAPHY',
   },
 ];

@@ -30,7 +30,7 @@ const Index = () => {
                   setIntroduce(() => true);
                 }}
               >
-                <h2 id="typist">Hi there. <Typist.Delay ms={500} /> I&apos;m Kevin Mao. </h2>
+                <h2 id="typist">Hi there. <Typist.Delay ms={500} /> I&apos;m Riya Roshan. </h2>
               </Typist>
 
               <Fade when={introduce} duration={1500}>

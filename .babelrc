@@ -4,7 +4,7 @@
     "@babel/preset-react"
   ],
   "plugins": [
-    "add-module-exports",
+    "babel-plugin-add-module-exports",
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-proposal-json-strings",
     "@babel/plugin-syntax-dynamic-import",
@@ -12,6 +12,6 @@
     "@babel/plugin-transform-async-to-generator",
     "@babel/plugin-transform-react-inline-elements",
     "@babel/plugin-transform-runtime",
-    "transform-react-remove-prop-types",
+    "transform-react-remove-prop-types"
   ]
 }

@@ -28,7 +28,7 @@ class Main extends Component {
   render() {
     return (
       <>
-        <Helmet titleTemplate="%s | Kevin Mao" defaultTitle="Kevin Mao" />
+        <Helmet titleTemplate="%s | Riya Roshan" defaultTitle="Riya Roshan" />
         {this.props.fullPage
           ? (<> {this.props.children} </>)
           : (
