@@ -12,17 +12,17 @@ const contactInfo = [
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/im-kevin-mao/',
+    link: 'https://www.linkedin.com/in/riyaroshan/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:imkevinmao@gmail.com',
+    link: 'mailto:riyaroshan1212@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
   {
-    link: `${process.env.PUBLIC_URL}/kevin-mao.pdf`,
+    link: `${process.env.PUBLIC_URL}/riya-roshan.pdf`,
     label: 'Resume',
     icon: faFileText,
   },

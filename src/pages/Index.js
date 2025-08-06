@@ -10,14 +10,13 @@ const Index = () => {
     return (
       <LandingMain
         description={
-        "Kevin Mao's personal website. New York based Stanford ICME graduate, "
-        + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
+        "Riya Roshan's personal website. Atlanta based Georgia Tech graduate student, "
       }
         typingDone
       >
         <section id="landing">
           <div className="center">
-            <h2>Hi there.      I&apos;m Kevin Mao</h2>
+            <h2>Hi there.      I&apos;m Riya Roshan</h2>
             <Blurb />
           </div>
         </section>
@@ -29,12 +28,12 @@ const Index = () => {
 
   return (
     <LandingMain
-      description="Kevin Mao's personal website"
+      description="Riya Roshan's personal website"
       typingDone={typingDone}
     >
       <section id="landing">
         <div className="center">
-          <Typewriter text="Hi there.      I&apos;m Kevin Mao." delay={75} onTypingDone={() => { setTypingDone(true); setVisible('fadeIn'); }} />
+          <Typewriter text="Hi there.      I&apos;m Riya Roshan." delay={75} onTypingDone={() => { setTypingDone(true); setVisible('fadeIn'); }} />
           <div className={visible}>
             <Blurb />
           </div>

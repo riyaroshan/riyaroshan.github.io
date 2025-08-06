@@ -12,8 +12,8 @@ const LandingMain = (props) => (
     <Analytics />
     <ScrollToTop />
     <Helmet
-      titleTemplate="%s | Kevin Mao"
-      defaultTitle="Kevin Mao"
+      titleTemplate="%s | Riya Roshan"
+      defaultTitle="Riya Roshan"
       defer={false}
     >
       {props.title && <title>{props.title}</title>}
@@ -36,7 +36,7 @@ LandingMain.propTypes = {
 LandingMain.defaultProps = {
   children: null,
   title: null,
-  description: "Kevin Mao's personal website.",
+  description: "Riya Roshan's personal website.",
   typingDone: false,
 };
 

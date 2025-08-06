@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: 'Kevin Mao',
+    label: 'Riya Roshan',
     path: '/home',
   },
   {
