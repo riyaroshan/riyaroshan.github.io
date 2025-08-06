@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/riyaroshan/riyaroshan-github.io.git"
+    "url": "https://github.com/riyaroshan/riyaroshan.github.io"
   },
   "engines": {
     "node": ">=16.x"
