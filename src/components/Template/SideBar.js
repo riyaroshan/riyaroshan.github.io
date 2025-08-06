@@ -22,12 +22,9 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        I am a Georgia Tech graduate student, and
-        a IT Developer at Hewlett Packard Enterprise almnus.
-        I have industry experience in backend and cloud engineering but I love tinkering and building,
-        so I&apos;ve accrued various experiences from fullstack engineering to applied machine learning through various
-        projects and ventures!
+        I am a Georgia Tech masters student and an alumnus at Hewlett Packard Enterprise.
       </p>
+
       <ul className="actions">
         <li>
           <a href={`${process.env.PUBLIC_URL}/riya-roshan.pdf`} target="_blank" rel="noreferrer" className="button"> View Resume </a>
