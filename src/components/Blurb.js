@@ -18,21 +18,30 @@ const Blurb = () => (
           <div className="col-md-4" style={{ padding: '1em' }}>
             <header>
               <p>
-                <a href="mailto: riyaroshan1212@gmail.com">riyaroshan1212@gmail.com</a>
+                <a href="mailto:riyaroshan1212@gmail.com">riyaroshan1212@gmail.com</a>
               </p>
             </header>
             <section className="blurb">
               <p style={{ marginBottom: '1em' }}>
-                I am a Software Engineer II at Microsoft, a Columbia Engineering graduate,
-                and a Columbia Startup Lab alumnus. At Microsoft, I work on
-                Azure Event Grid, Microsoft&apos;s premier pub/sub messaging service.
+                I&apos;m a Georgia Tech M.S. in Computer Science student
+                {' '}
+                and a former software engineer at
+                {' '}
+                Hewlett Packard Enterprise, where I worked
+                {' '}
+                on enterprise backend systems, microservices,
+                {' '}
+                and deployment infrastructure.
+                {' '}
+                My experience spans backend engineering, distributed systems,
+                {' '}
+                and enterprise software, and I&apos;m particularly interested in building scalable
+                {' '}
+                infrastructure and AI-driven systems.
+                {' '}
+                Outside of work, I enjoy travelling and photographing what I see.
               </p>
-              <p>
-                I have industry experience in backend and cloud engineering but I love
-                tinkering and building, so I&apos;ve accrued various experiences from
-                fullstack engineering to applied machine learning through various
-                projects and ventures!
-              </p>
+
               <ul className="actions">
                 <li>
                   <Link to="/projects" className="button">

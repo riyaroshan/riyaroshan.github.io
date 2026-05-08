@@ -7,12 +7,12 @@ import { faFileText } from '@fortawesome/free-regular-svg-icons/faFileText';
 
 const contactInfo = [
   {
-    link: 'https://www.instagram.com/kmao.jpg/',
+    link: 'https://www.instagram.com/riyaisdisposable/',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/riyaroshan/',
+    link: 'https://www.linkedin.com/in/riya-roshan-2464661b2/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },

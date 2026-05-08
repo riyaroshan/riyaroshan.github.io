@@ -22,7 +22,9 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        I am a Georgia Tech masters student and an alumnus at Hewlett Packard Enterprise.
+        I&apos;m a Georgia Tech M.S. in Computer Science student
+        {' '}
+        and former engineer at Hewlett Packard Enterprise.
       </p>
 
       <ul className="actions">

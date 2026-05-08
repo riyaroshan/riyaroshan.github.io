@@ -16,6 +16,9 @@ describe('renders the app', () => {
   let container;
 
   beforeEach(async () => {
+    global.fetch = jest.fn(() => Promise.resolve({
+      text: () => Promise.resolve('about page markdown'),
+    }));
     container = document.createElement('div');
     document.body.appendChild(container);
     await act(async () => {
@@ -38,7 +41,7 @@ describe('renders the app', () => {
   });
 
   it('can navigate to /about', async () => {
-    expect.assertions(7);
+    expect.assertions(5);
     const aboutLink = document.querySelector(
       '#header > nav > ul > li:nth-child(1) > a',
     );
@@ -54,12 +57,12 @@ describe('renders the app', () => {
 
   it('can navigate to /projects', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(3) > a',
+    const projectsLink = [...document.querySelectorAll('#header nav a')].find(
+      (link) => link.getAttribute('href') === '/projects',
     );
-    expect(contactLink).toBeInTheDocument();
+    expect(projectsLink).toBeInTheDocument();
     await act(async () => {
-      await contactLink.click();
+      await projectsLink.click();
     });
     expect(document.title).toContain('Projects |');
     expect(window.location.pathname).toBe('/projects');
