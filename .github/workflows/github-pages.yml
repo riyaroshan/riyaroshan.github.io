@@ -21,8 +21,6 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 # One deploy at a time; cancel older queued runs so a stuck job cannot block new pushes for hours.
 concurrency:
   group: "pages"
