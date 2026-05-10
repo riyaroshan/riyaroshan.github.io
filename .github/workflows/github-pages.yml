@@ -1,3 +1,9 @@
+# Deploy the CRA production build (folder `build/`) to GitHub Pages.
+#
+# Required repo setting: Settings → Pages → Build and deployment → Source must be
+# "GitHub Actions". If Source is "Deploy from a branch", GitHub will serve Jekyll
+# from the repo root instead of this artifact, and the React app will not appear.
+#
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
