@@ -1,7 +1,8 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-// https://vite.dev/config/
+// User site (username.github.io) is served from the domain root.
 export default defineConfig({
   plugins: [react()],
+  base: '/',
 })
